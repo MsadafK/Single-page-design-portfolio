@@ -20,37 +20,6 @@
     <title>Frontend Mentor | Single-page design portfolio</title>
   </head>
   <body>
-    <!--
-
-  
-
-  
-
-  Graphic Design
-  UI/UX
-  Apps
-  Photography
-  Illustrations
-  Motion Graphics
-
-  I’m Amy, and I’d love to work on your next project
-
-  I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations 
-  to complete mobile apps. I’m also handy with a camera!
-
-  Free Consultation
-
-  My Work
-
-  Book a call with me
-
-  I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a 
-  free consultation. Then we can move forward from there.
-
-  Free Consultation
-
-  Free Consultation -->
-
     <!-- header -->
     <header class="header">
       <!-- navbar -->
@@ -136,6 +105,100 @@
         </div>
       </section>
     </header>
+
+    <main class="main">
+      <!-- about section -->
+      <section class="main_about-section">
+        <img
+          class="main_about-section_image"
+          src="./assets/image-amy.webp"
+          alt="a women named ally smiling for her profile photo"
+        />
+        <div class="main_about-section-text-container">
+          <h2 class="main_about-section_title">
+            I’m Amy, and I’d love to work on your next project
+          </h2>
+          <p class="main_about-section_description">
+            I love working with others to create beautiful design solutions.
+            I’ve designed everything from brand illustrations to complete mobile
+            apps. I’m also handy with a camera!
+          </p>
+          <a class="main_about-section_button" href="#">Free Consultation</a>
+        </div>
+      </section>
+
+      <!-- my work section -->
+      <section class="main_my-work-section">
+        <h3 class="main_my-work-section_title">My Work</h3>
+        <div class="main_my-work-section_images-container">
+          <img
+            src="./assets/image-slide-1.jpg"
+            class="main_my-work-section_image"
+            alt=""
+          />
+          <img
+            src="./assets/image-slide-2.jpg"
+            class="main_my-work-section_image"
+            alt=""
+          />
+          <img
+            src="./assets/image-slide-3.jpg"
+            class="main_my-work-section_image"
+            alt=""
+          />
+          <img
+            src="./assets/image-slide-4.jpg"
+            class="main_my-work-section_image"
+            alt=""
+          />
+          <img
+            src="./assets/image-slide-5.jpg"
+            class="main_my-work-section_image"
+            alt=""
+          />
+        </div>
+        <div class="main_my-work-section_carousal-button-container">
+          <img
+            src="./assets/icon-arrow-left.svg"
+            alt="an arrow denoting to go left"
+            class="main_my-work-section_carousal-button left-arrow-button"
+          />
+          <img
+            src="./assets/icon-arrow-right.svg"
+            alt="an arrow denoting to go right"
+            class="main_my-work-section_carousal-button right-arrow-button"
+          />
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <!-- footer text container -->
+      <div class="footer_text-container">
+        <div class="footer_text-container_title-container">
+          <h4 class="footer_text-container_title">Book a call with me</h4>
+          <p class="footer_text-container_description">
+            I’d love to have a chat to see how I can help you. The best first
+            step is for us to discuss your project during a free consultation.
+            Then we can move forward from there.
+          </p>
+        </div>
+        <a href="#" class="footer_text-container_consultation-button"
+          >Free Consultation</a
+        >
+      </div>
+
+      <!-- footer navbar  -->
+      <div class="footer_navbar header_navbar">
+        <img
+          src="./assets/logo.svg"
+          class="header_navbar_logo-image"
+          alt="logo image"
+        />
+        <a href="#" class="header_navbar_button">Free Consultation</a>
+      </div>
+    </footer>
 
     <script src="./script.js"></script>
   </body>
